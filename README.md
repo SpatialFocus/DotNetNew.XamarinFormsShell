@@ -5,7 +5,7 @@
 ## Install the dotnet new template
 
 ```
-dotnet new --install SpatialFocus.DotNetNew.XamarinFormsShell::0.1.1
+dotnet new --install SpatialFocus.DotNetNew.XamarinFormsShell::0.1.2
 ```
 
 ## Using the template

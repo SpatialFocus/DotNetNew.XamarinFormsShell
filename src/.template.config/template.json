@@ -56,7 +56,8 @@
                         "**/_rels/**",
                         "**/package/**",
                         "**/*.nuspec",
-                        "images/**"
+                        "images/**",
+                        ".signature.p7s"
                     ]
                 }
             ]
