@@ -1,0 +1,69 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "SpatialFocus",
+    "classifications":
+        [
+            "Custom Templates",
+            "Xamarin",
+            "Spatial Focus",
+            "Cross Platform",
+            "XF"
+        ],
+    "groupIdentity": "patialFocus.DotNetNew",
+    "name": "SpatialFocus: Xamarin Forms Shell Project",
+    "identity": "SpatialFocus.DotNetNew.XamarinFormsShell",
+    "shortName": "focus-xfshell",
+    "guids":
+    [
+        "2C615E28-1F70-4487-AD9B-2BCD45BA44A1",
+        "C72D4EC2-F56E-44CD-8291-77CE6BDAF41C",
+    ],
+    "sourceName": "XamarinFormsShell",
+    "primaryOutputs": [
+        {
+            "path": "src\\XamarinFormsShell\\XamarinFormsShell.csproj"
+          },
+          {
+            "path": "src\\XamarinFormsShell.Android\\XamarinFormsShell.Android.csproj"
+          },
+          {
+            "path": "src\\XamarinFormsShell.iOS\\XamarinFormsShell.iOS.csproj"
+          }
+         ],
+    "sources":
+    [
+        {
+            "source": "./",
+            "target": "./",
+            "modifiers":
+            [
+                {
+                    "exclude":
+                    [
+                        ".template.config/**",
+                        ".template.config/**/*",
+                        "**/[Bb]in/**",
+                        "**/[Oo]bj/**",
+                        "**/tools/**",
+                        "**/*.filelist",
+                        "**/*.user",
+                        "**/*.lock.json",
+                        "**/.vs/**",
+                        "**/packages/**",
+                        "**/*.DS_Store",
+                        "**/.DS_Store",
+                        "*Content_Types].xml",
+                        "**/_rels/**",
+                        "**/package/**",
+                        "**/*.nuspec",
+                        "images/**"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tags":
+    {
+        "language": "C#"
+    }
+}
